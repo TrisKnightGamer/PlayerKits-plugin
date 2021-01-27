@@ -1,0 +1,522 @@
+Kits:
+  compass:
+    Items:
+      '1':
+        id: COMPASS
+        amount: 1
+    slot: 1
+    display_item: COMPASS
+    display_name: '&aKit &6&lStart'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x1 Compass'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    first_join: true
+    one_time: true
+  food:
+    Items:
+      '1':
+        id: COOKED_BEEF
+        amount: 32
+    slot: 2
+    display_item: COOKED_BEEF
+    display_name: '&aKit &6&lFood'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x32 Thịt bò chín'
+    - ''
+    - '&7Đếm ngược: &c24 giờ'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 86400
+  pvp:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: 1
+        enchants:
+        - DAMAGE_ALL;3
+      '2':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '5':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '6':
+        id: GOLDEN_APPLE
+        amount: 8
+      '7':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: 1
+    slot: 3
+    display_item: DIAMOND_SWORD
+    display_name: '&aKit &6&lPVP'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x1 Kiếm kim cương : sắc bén 3'
+    - '&8- &7x1 Mũ kim cương : bảo vệ 3'
+    - '&8- &7x1 Giáp ngực kim cương : bảo vệ 3'
+    - '&8- &7x1 Giáp quần kim cương : bảo vệ 3'
+    - '&8- &7x1 Giáp chân kim cương : bảo vệ 3'
+    - '&8- &7x8 Táo vàng thường'
+    - '&8- &7x1 Táo vàng enchanted'
+    - ''
+    - '&7Price: &a10000$'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 10000
+  daily:
+    Items:
+      '1':
+        id: carrots
+        amount: 16
+      '2':
+        id: LEATHER_HELMET
+        amount: 1
+      '3':
+        id: LEATHER_CHESTPLATE
+        amount: 1
+      '4':
+        id: LEATHER_LEGGINGS
+        amount: 1
+      '5':
+        id: LEATHER_BOOTS
+        amount: 1
+      '6':
+        id: diamond_pickaxe
+        amount: 1
+        enchants:
+        - DIG_SPEED;3
+    slot: 4
+    display_item: carrots
+    display_name: '&aKit &6&lHằng ngày'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x16 cà rốt'
+    - '&8- &7x1 set đồ da'
+    - '&8- &7x1 cúp kim cương enchant hiệu suất 3'
+    - ''
+    - '&aMỗi ngày chỉ nhận kit này được 1 lần.'
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 86400
+  support:
+    Items:
+      '1':
+        id: IRON_BLOCK
+        amount: 32
+      '2':
+        id: DIAMOND
+        amount: 64
+      '3':
+        id: EMERALD
+        amount: 16
+      '4':
+        id: COAL
+        amount: 64
+      '5':
+        id: GOLD
+        amount: 64
+      '6':
+        id: REDSTONE
+        amount: 8
+      '7':
+        id: lapis_lazuli
+        amount: 64
+      '8':
+        id: lapis_lazuli
+        amount: 64
+      '9':
+        id: lapis_lazuli
+        amount: 64
+    slot: 5
+    display_item: REDSTONE
+    display_name: '&aKit &6&lKhoáng sản'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x16 cà rốt'
+    - '&8- &7x1 set đồ da'
+    - '&8- &7x1 cúp kim cương enchant hiệu suất 3'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 7500
+  vip:
+    Items:
+      '1':
+        id: COOKED_BEEF
+        amount: 64
+      '2':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '5':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+      '6':
+        id: diamond_pickaxe
+        amount: 1
+        enchants:
+        - DIG_SPEED;1
+    slot: 10
+    display_item: IRON
+    display_name: '&aKit &6&lQuý tộc loại 2'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x16 cà rốt'
+    - '&8- &7x1 set đồ da'
+    - '&8- &7x1 cúp kim cương enchant hiệu suất 3'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 259200
+    permission: ranks.rank4
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&aKit &6&lQuý tộc loại 2'
+      display_lore:
+      - '&cBạn không đủ rank để nhận kit này.'
+      - ''
+      - '&7Bạn cần: &7rank &bQuý tộc loại 2&6.'
+  vip+:
+    Items:
+      '1':
+        id: COOKED_BEEF
+        amount: 64
+      '2':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '5':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '6':
+        id: diamond_pickaxe
+        amount: 1
+        enchants:
+        - DIG_SPEED;3
+        - DURABILITY;1
+    slot: 11
+    display_item: GOLD
+    display_name: '&aKit &6&lQuý tộc loại 1'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x16 cà rốt'
+    - '&8- &7x1 set đồ da'
+    - '&8- &7x1 cúp kim cương enchant hiệu suất 3'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 172800
+    permission: ranks.rank3
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&aKit &6&lQuý tộc loại 1'
+      display_lore:
+      - '&cBạn không đủ rank để nhận kit này.'
+      - ''
+      - '&7Bạn cần: &7rank &bQuý tộc loại 1&6.'
+  king:
+    Items:
+      '1':
+        id: GOLDEN_APPLE
+        amount: 32
+      '2':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: 8
+      '3':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;1
+      '4':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;1
+      '5':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;1
+      '6':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;1
+      '7':
+        id: diamond_pickaxe
+        amount: 1
+        enchants:
+        - DIG_SPEED;4
+        - DURABILITY;2
+    slot: 12
+    display_item: DIAMOND
+    display_name: '&aKit &6&lQuan lại'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x1 set giáp kim cương chậm hỏng 3, bảo vệ 5, phản đòn 1'
+    - '&8- &7x32 táo vàng'
+    - '&8- &7x8 táo vàng enchant'
+    - '&8- &7x1 cúp kim cương chậm hỏng 2, hiệu suất 4'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 172800
+    permission: ranks.rank2
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&aKit &6&lQuan lại'
+      display_lore:
+      - '&cBạn không đủ rank để nhận kit này.'
+      - ''
+      - '&7Bạn cần: &7rank &bQuan lại&6.'
+  king+:
+    Items:
+      '1':
+        id: DIAMOND
+        amount: 64
+      '2':
+        id: DIAMOND
+        amount: 64
+      '3':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;3
+        - MENDING
+      '4':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;3
+        - MENDING
+      '5':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;3
+        - MENDING
+      '6':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;3
+        - THORNS;3
+        - MENDING
+      '7':
+        id: EMERALD
+        amount: 32
+      '8':
+        id: COAL
+        amount: 64
+      '9':
+        id: COAL
+        amount: 64
+      '10':
+        id: GOLD
+        amount: 64
+      '11':
+        id: GOLD
+        amount: 64
+      '12':
+        id: GOLDEN_APPLE
+        amount: 64
+      '13':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: 16
+      '14':
+        id: IRON_BLOCK
+        amount: 64
+      '15':
+        id: COOKED_BEEF
+        amount: 64
+    slot: 13
+    display_item: EMERALD
+    display_name: '&aKit &6&lVua chúa'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x1 set giáp kim cương bảo vệ 5, mending, chậm hỏng, gai 3'
+    - '&8- &7x2 stack kim cương'
+    - '&8- &7x32 emerald'
+    - '&8- &7x2 stack than'
+    - '&8- &7x2 stack vàng'
+    - '&8- &7x1 stack khối sắt'
+    - '&8- &7x16 táo vàng enchant'
+    - '&8- &7x64 táo vàng'
+    - '&8- &7x64 thịt bò chín'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    cooldown: 172800
+    permission: ranks.rank1
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&aKit &6&lVua chúa'
+      display_lore:
+      - '&cBạn không đủ rank để nhận kit này.'
+      - ''
+      - '&7Bạn cần: &7rank &bVua chúa&6.'
+  tank:
+    Items:
+      '1':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: 32
+      '2':
+        id: DIAMOND_HELMET
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '5':
+        id: DIAMOND_BOOTS
+        amount: 1
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+      '6':
+        id: potion{Potion:healing}
+        amount: 1
+    slot: 19
+    display_item: potion{Potion:healing}
+    display_name: '&aKit &6&lTank'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x32 táo vàng enchant'
+    - '&8- &7x1 set giáp kim cương bảo vệ 5'
+    - '&8- &7x1 thuốc hồi máu'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 20000
+  assassin:
+    Items:
+      '1':
+        id: GOLDEN_SWORD
+        amount: 32
+        enchants:
+        - DAMAGE_ALL;3
+      '2':
+        id: splash_potion{Potion:strong_leaping}
+        amount: 3
+      '3':
+        id: potion{Potion:long_invisibility}
+        amount: 3
+      '4':
+        id: potion{Potion:strong_swiftness}
+        amount: 3
+    slot: 20
+    display_item: potion{Potion:long_invisibility}
+    display_name: '&aKit &6&lSát thủ'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x1 kiếm kim cương sắc bén 3'
+    - '&8- &7x3 thuốc tàn hình'
+    - '&8- &7x3 thuốc nhảy cao'
+    - '&8- &7x3 thuốc chạy nhanh'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 15000
+  archer:
+    Items:
+      '1':
+        id: bow
+        amount: 1
+        enchants:
+        - DAMAGE_ALL;5
+        - ARROW_FIRE
+        - DURABILITY;3
+    slot: 21
+    display_item: COOKED_BEEF
+    display_name: '&aKit &6&lCung thủ'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x32 Thịt bò chín'
+    - '&8- &7x1 cung sức mạnh 5, lửa, chậm hỏng 3'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 10000
+  arrow:
+    Items:
+      '1':
+        id: arrow
+        amount: 64
+    slot: 22
+    display_item: COOKED_BEEF
+    display_name: '&aKit &6&lHỗ trợ cung thủ'
+    display_lore:
+    - '&eKit này gồm:'
+    - '&8- &7x64 mũi tên'
+    - ''
+    - '&aNhấn chuột trái để nhận nó!'
+    - '&bNhấn chuột phải để xem trước nó!'
+    price: 1000
