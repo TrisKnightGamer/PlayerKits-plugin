@@ -86,7 +86,7 @@ Kits:
   daily:
     Items:
       '1':
-        id: carrots
+        id: CARROTS
         amount: 16
       '2':
         id: LEATHER_HELMET
@@ -101,12 +101,12 @@ Kits:
         id: LEATHER_BOOTS
         amount: 1
       '6':
-        id: diamond_pickaxe
+        id: DIAMOND_PICKAXE
         amount: 1
         enchants:
         - DIG_SPEED;3
     slot: 4
-    display_item: carrots
+    display_item: CARROTS
     display_name: '&aKit &6&lHằng ngày'
     display_lore:
     - '&eKit này gồm:'
@@ -139,13 +139,13 @@ Kits:
         id: REDSTONE
         amount: 8
       '7':
-        id: lapis_lazuli
+        id: LAPIS_LAZULI
         amount: 64
       '8':
-        id: lapis_lazuli
+        id: LAPIS_LAZULI
         amount: 64
       '9':
-        id: lapis_lazuli
+        id: LAPIS_LAZULI
         amount: 64
     slot: 5
     display_item: REDSTONE
@@ -185,7 +185,7 @@ Kits:
         enchants:
         - PROTECTION_ENVIRONMENTAL;3
       '6':
-        id: diamond_pickaxe
+        id: DIAMOND_PICKAXE
         amount: 1
         enchants:
         - DIG_SPEED;1
@@ -235,7 +235,7 @@ Kits:
         enchants:
         - PROTECTION_ENVIRONMENTAL;5
       '6':
-        id: diamond_pickaxe
+        id: DIAMOND_PICKAXE
         amount: 1
         enchants:
         - DIG_SPEED;3
@@ -297,7 +297,7 @@ Kits:
         - DURABILITY;3
         - THORNS;1
       '7':
-        id: diamond_pickaxe
+        id: DIAMOND_PICKAXE
         amount: 1
         enchants:
         - DIG_SPEED;4
@@ -442,10 +442,10 @@ Kits:
         enchants:
         - PROTECTION_ENVIRONMENTAL;5
       '6':
-        id: potion{Potion:healing}
+        id: POTION{POTION:HEALING}
         amount: 1
     slot: 19
-    display_item: potion{Potion:healing}
+    display_item: POTION{POTION:HEALING}
     display_name: '&aKit &6&lTank'
     display_lore:
     - '&eKit này gồm:'
@@ -464,16 +464,16 @@ Kits:
         enchants:
         - DAMAGE_ALL;3
       '2':
-        id: splash_potion{Potion:strong_leaping}
+        id: SPLASH_POTION{POTION:STRONG_LEAPING}
         amount: 3
       '3':
-        id: potion{Potion:long_invisibility}
+        id: POTION{POTION:LONG_INVISIBILITY}
         amount: 3
       '4':
-        id: potion{Potion:strong_swiftness}
+        id: POTION{POTION:STRONG_SWIFTNESS}
         amount: 3
     slot: 20
-    display_item: potion{Potion:long_invisibility}
+    display_item: POTION{POTION:LONG_INVISIBILITY}
     display_name: '&aKit &6&lSát thủ'
     display_lore:
     - '&eKit này gồm:'
@@ -488,14 +488,14 @@ Kits:
   archer:
     Items:
       '1':
-        id: bow
+        id: BOW
         amount: 1
         enchants:
         - DAMAGE_ALL;5
         - ARROW_FIRE
         - DURABILITY;3
     slot: 21
-    display_item: COOKED_BEEF
+    display_item: BOW
     display_name: '&aKit &6&lCung thủ'
     display_lore:
     - '&eKit này gồm:'
@@ -508,10 +508,10 @@ Kits:
   arrow:
     Items:
       '1':
-        id: arrow
+        id: ARROW
         amount: 64
     slot: 22
-    display_item: COOKED_BEEF
+    display_item: ARROW
     display_name: '&aKit &6&lHỗ trợ cung thủ'
     display_lore:
     - '&eKit này gồm:'
